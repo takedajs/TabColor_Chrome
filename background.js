@@ -12,7 +12,6 @@ chrome.tabs.onActivated.addListener(function(tab){
 });
 
 function url_match(tab) {
-
     var storage_keywords = [];
     chrome.storage.local.get('value', function(items) {
         storage_keywords = items.value;

@@ -1,4 +1,3 @@
-
 //キーワードを登録するためのフォームを作成
 var storage_keywords = [];
 chrome.storage.local.get('value', function(items) {
@@ -24,7 +23,6 @@ window.setTimeout(
 );
 
 document.addEventListener("click", function(e) {
-
     // キーワードをストレージに保存
     if (e.target.classList.contains("save")) {
 
