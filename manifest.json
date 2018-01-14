@@ -1,0 +1,29 @@
+{
+  "name": "TabColor",
+  "description" : "test",
+  "version": "1.0",
+  "manifest_version": 2,
+  "homepage_url": "https://github.com/takedajs/TabColor_Chrome",
+  "icons": {
+    "48": "icons/tab_color_60.png"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/tab_color_30.png",
+    "default_title": "TabColor",
+    "default_popup": "popup/keyword_save.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
