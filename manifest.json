@@ -1,6 +1,6 @@
 {
   "name": "TabColor",
-  "description" : "test",
+  "description" : "If the URL matches the keyword you specified, the left end of the browser will be displayed in red. You can register multiple keywords.",
   "version": "1.0",
   "manifest_version": 2,
   "homepage_url": "https://github.com/takedajs/TabColor_Chrome",
