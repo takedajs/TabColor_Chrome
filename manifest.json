@@ -1,11 +1,13 @@
 {
   "name": "TabColor",
-  "description" : "If the URL matches the keyword you specified, the left end of the browser will be displayed in red. You can register multiple keywords.",
+  "description" : "If URL matches the keyword you specified, the left end of the browser will be displayed in red. You can register multiple keywords.",
   "version": "1.0",
   "manifest_version": 2,
   "homepage_url": "https://github.com/takedajs/TabColor_Chrome",
   "icons": {
-    "48": "icons/tab_color_60.png"
+    "16": "icons/tab_color_16.png",
+    "48": "icons/tab_color_48.png",
+    "128": "icons/tab_color_128.png"
   },
 
   "permissions": [
@@ -17,7 +19,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/tab_color_30.png",
+    "default_icon": "icons/tab_color_128.png",
     "default_title": "TabColor",
     "default_popup": "popup/keyword_save.html"
   },
